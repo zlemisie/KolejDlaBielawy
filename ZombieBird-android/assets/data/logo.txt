@@ -1,0 +1,11 @@
+logo.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+logo-noscale
+  rotate: false
+  xy: 0, 0
+  size: 315, 64
+  orig: 339, 92
+  offset: 11, 15
+  index: -1

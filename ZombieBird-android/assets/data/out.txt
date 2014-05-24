@@ -1,0 +1,18 @@
+texture.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+logo-noscale
+  rotate: false
+  xy: 0, 120
+  size: 315, 64
+  orig: 339, 92
+  offset: 11, 15
+  index: -1
+texture_old
+  rotate: false
+  xy: 0, 0
+  size: 216, 120
+  orig: 256, 128
+  offset: 0, 8
+  index: -1
