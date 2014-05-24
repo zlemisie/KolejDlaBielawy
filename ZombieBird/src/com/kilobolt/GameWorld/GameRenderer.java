@@ -90,7 +90,7 @@ public class GameRenderer {
 		bg = AssetLoader.bg;
 		grass = AssetLoader.grass;
 		birdAnimation = AssetLoader.birdAnimation;
-		birdMid = AssetLoader.bird;
+		birdMid = AssetLoader.train1;
 		skullUp = AssetLoader.skullUp;
 		skullDown = AssetLoader.skullDown;
 		bar = AssetLoader.bar;
@@ -171,7 +171,7 @@ public class GameRenderer {
 
 	private void drawMenuUI() {
 		batcher.draw(zbLogo, 136 / 2 - 56, midPointY - 50,
-				zbLogo.getRegionWidth() / 1.2f, zbLogo.getRegionHeight() / 1.2f);
+				zbLogo.getRegionWidth() / 3.0f, zbLogo.getRegionHeight() / 3.0f);
 
 		for (SimpleButton button : menuButtons) {
 			button.draw(batcher);
@@ -251,15 +251,16 @@ public class GameRenderer {
 		shapeRenderer.begin(ShapeType.Filled);
 
 		// Draw Background color
-		shapeRenderer.setColor(55 / 255.0f, 80 / 255.0f, 100 / 255.0f, 1);
+//		shapeRenderer.setColor(55 / 255.0f, 80 / 255.0f, 100 / 255.0f, 1);
+		shapeRenderer.setColor(26 / 255.0f, 163 / 255.0f, 255 / 255.0f, 1);
 		shapeRenderer.rect(0, 0, 136, midPointY + 66);
 
 		// Draw Grass
-		shapeRenderer.setColor(111 / 255.0f, 186 / 255.0f, 45 / 255.0f, 1);
+		shapeRenderer.setColor(236 / 255.0f, 42 / 255.0f, 50 / 255.0f, 1);
 		shapeRenderer.rect(0, midPointY + 66, 136, 11);
 
 		// Draw Dirt
-		shapeRenderer.setColor(147 / 255.0f, 80 / 255.0f, 27 / 255.0f, 1);
+		shapeRenderer.setColor(0 / 255.0f, 0 / 255.0f, 0 / 255.0f, 1);
 		shapeRenderer.rect(0, midPointY + 77, 136, 52);
 
 		shapeRenderer.end();

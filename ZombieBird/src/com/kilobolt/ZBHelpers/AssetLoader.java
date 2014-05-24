@@ -11,8 +11,8 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 public class AssetLoader {
 
-	public static Texture texture, logoTexture;
-	public static TextureRegion logo, zbLogo, bg, grass, bird, birdDown,
+	public static Texture texture, logoTexture, background, train;
+	public static TextureRegion logo, zbLogo, bg, grass, train1, train2, train3, train4, birdDown,
 			birdUp, skullUp, skullDown, bar, playButtonUp, playButtonDown,
 			ready, gameOver, highScore, scoreboard, star, noStar, retry;
 	public static Animation birdAnimation;
@@ -21,6 +21,9 @@ public class AssetLoader {
 	private static Preferences prefs;
 
 	public static void load() {
+		
+		background = new Texture(Gdx.files.internal("data/background.png"));
+		train = new Texture(Gdx.files.internal("data/train.png"));
 
 		logoTexture = new Texture(Gdx.files.internal("data/logo.png"));
 		logoTexture.setFilter(TextureFilter.Linear, TextureFilter.Linear);
@@ -56,32 +59,36 @@ public class AssetLoader {
 		highScore = new TextureRegion(texture, 59, 101, 48, 7);
 		highScore.flip(false, true);
 
-		zbLogo = new TextureRegion(texture, 0, 55, 135, 24);
-		zbLogo.flip(false, true);
+//		zbLogo = new TextureRegion(texture, 0, 55, 135, 24);
+//		zbLogo.flip(false, true);
 		
 		zbLogo = new TextureRegion(logo);
 		zbLogo.flip(false, true);
-		//zbLogo.setU(0.5f);
-		zbLogo.setV(0.5f);
 
-		bg = new TextureRegion(texture, 0, 0, 136, 43);
+//		bg = new TextureRegion(background, 0, 0, 136, 43);
+//		bg.flip(false, true);
+		
+		bg = new TextureRegion(background, 0, 0, 392, 218);
 		bg.flip(false, true);
 
 		grass = new TextureRegion(texture, 0, 43, 143, 11);
 		grass.flip(false, true);
+		
+		train1 = new TextureRegion(train, 0, 0, 95, 70);
+		train1.flip(false, true);
+		
+		train2 = new TextureRegion(train, 95, 0, 95, 70);
+		train2.flip(false, true);
 
-		birdDown = new TextureRegion(texture, 136, 0, 17, 12);
-		birdDown.flip(false, true);
+		train3 = new TextureRegion(train, 0, 70, 95, 70);
+		train3.flip(false, true);
+		
+		train4 = new TextureRegion(train, 0, 140, 95, 70);
+		train4.flip(false, true);
 
-		bird = new TextureRegion(texture, 153, 0, 17, 12);
-		bird.flip(false, true);
-
-		birdUp = new TextureRegion(texture, 170, 0, 17, 12);
-		birdUp.flip(false, true);
-
-		TextureRegion[] birds = { birdDown, bird, birdUp };
-		birdAnimation = new Animation(0.06f, birds);
-		birdAnimation.setPlayMode(Animation.LOOP_PINGPONG);
+		TextureRegion[] birds = { train1, train2, train3, train4 };
+		birdAnimation = new Animation(0.1f, birds);
+		birdAnimation.setPlayMode(Animation.LOOP);
 
 		skullUp = new TextureRegion(texture, 192, 0, 24, 14);
 		// Create by flipping existing skullUp
