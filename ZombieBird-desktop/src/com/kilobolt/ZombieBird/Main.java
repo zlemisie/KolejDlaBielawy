@@ -1,5 +1,6 @@
 package com.kilobolt.ZombieBird;
 
+import com.badbears.ZombieBird.ZBGame;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 

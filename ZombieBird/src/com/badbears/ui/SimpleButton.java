@@ -1,9 +1,9 @@
-package com.kilobolt.ui;
+package com.badbears.ui;
 
+import com.badbears.ZBHelpers.AssetLoader;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
-import com.kilobolt.ZBHelpers.AssetLoader;
 
 public class SimpleButton {
 

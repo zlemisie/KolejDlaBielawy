@@ -1,10 +1,10 @@
-package com.kilobolt.Screens;
+package com.badbears.Screens;
 
+import com.badbears.GameWorld.GameRenderer;
+import com.badbears.GameWorld.GameWorld;
+import com.badbears.ZBHelpers.InputHandler;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
-import com.kilobolt.GameWorld.GameRenderer;
-import com.kilobolt.GameWorld.GameWorld;
-import com.kilobolt.ZBHelpers.InputHandler;
 
 public class GameScreen implements Screen {
 

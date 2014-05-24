@@ -1,4 +1,4 @@
-package com.kilobolt.GameObjects;
+package com.badbears.GameObjects;
 
 public class Grass extends Scrollable {
 

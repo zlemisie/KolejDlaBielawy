@@ -1,7 +1,8 @@
-package com.kilobolt.ZombieBird;
+package com.badbears.ZombieBird;
 
 import android.os.Bundle;
 
+import com.badbears.ZombieBird.ZBGame;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 

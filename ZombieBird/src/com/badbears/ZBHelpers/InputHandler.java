@@ -1,13 +1,13 @@
-package com.kilobolt.ZBHelpers;
+package com.badbears.ZBHelpers;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.badbears.GameObjects.Bird;
+import com.badbears.GameWorld.GameWorld;
+import com.badbears.ui.SimpleButton;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputProcessor;
-import com.kilobolt.GameObjects.Bird;
-import com.kilobolt.GameWorld.GameWorld;
-import com.kilobolt.ui.SimpleButton;
 
 public class InputHandler implements InputProcessor {
 	private Bird myBird;

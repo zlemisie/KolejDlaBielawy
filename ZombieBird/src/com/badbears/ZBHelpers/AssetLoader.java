@@ -1,4 +1,4 @@
-package com.kilobolt.ZBHelpers;
+package com.badbears.ZBHelpers;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;

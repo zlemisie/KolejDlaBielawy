@@ -1,4 +1,4 @@
-package com.kilobolt.GameWorld;
+package com.badbears.GameWorld;
 
 import java.util.List;
 
@@ -6,6 +6,15 @@ import aurelienribon.tweenengine.Tween;
 import aurelienribon.tweenengine.TweenEquations;
 import aurelienribon.tweenengine.TweenManager;
 
+import com.badbears.GameObjects.Bird;
+import com.badbears.GameObjects.Grass;
+import com.badbears.GameObjects.Pipe;
+import com.badbears.GameObjects.ScrollHandler;
+import com.badbears.TweenAccessors.Value;
+import com.badbears.TweenAccessors.ValueAccessor;
+import com.badbears.ZBHelpers.AssetLoader;
+import com.badbears.ZBHelpers.InputHandler;
+import com.badbears.ui.SimpleButton;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL10;
@@ -15,15 +24,6 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
-import com.kilobolt.GameObjects.Bird;
-import com.kilobolt.GameObjects.Grass;
-import com.kilobolt.GameObjects.Pipe;
-import com.kilobolt.GameObjects.ScrollHandler;
-import com.kilobolt.TweenAccessors.Value;
-import com.kilobolt.TweenAccessors.ValueAccessor;
-import com.kilobolt.ZBHelpers.AssetLoader;
-import com.kilobolt.ZBHelpers.InputHandler;
-import com.kilobolt.ui.SimpleButton;
 
 public class GameRenderer {
 

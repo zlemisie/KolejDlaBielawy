@@ -1,6 +1,6 @@
 package com.kilobolt.ZombieBird.client;
 
-import com.kilobolt.ZombieBird.ZBGame;
+import com.badbears.ZombieBird.ZBGame;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;

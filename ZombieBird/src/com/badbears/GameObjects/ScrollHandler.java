@@ -1,7 +1,7 @@
-package com.kilobolt.GameObjects;
+package com.badbears.GameObjects;
 
-import com.kilobolt.GameWorld.GameWorld;
-import com.kilobolt.ZBHelpers.AssetLoader;
+import com.badbears.GameWorld.GameWorld;
+import com.badbears.ZBHelpers.AssetLoader;
 
 public class ScrollHandler {
 

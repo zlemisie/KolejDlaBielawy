@@ -1,4 +1,4 @@
-package com.kilobolt.Screens;
+package com.badbears.Screens;
 
 import aurelienribon.tweenengine.BaseTween;
 import aurelienribon.tweenengine.Tween;
@@ -6,14 +6,14 @@ import aurelienribon.tweenengine.TweenCallback;
 import aurelienribon.tweenengine.TweenEquations;
 import aurelienribon.tweenengine.TweenManager;
 
+import com.badbears.TweenAccessors.SpriteAccessor;
+import com.badbears.ZBHelpers.AssetLoader;
+import com.badbears.ZombieBird.ZBGame;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.kilobolt.TweenAccessors.SpriteAccessor;
-import com.kilobolt.ZBHelpers.AssetLoader;
-import com.kilobolt.ZombieBird.ZBGame;
 
 public class SplashScreen implements Screen {
 

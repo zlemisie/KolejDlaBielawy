@@ -1,8 +1,8 @@
-package com.kilobolt.GameObjects;
+package com.badbears.GameObjects;
 
+import com.badbears.ZBHelpers.AssetLoader;
 import com.badlogic.gdx.math.Circle;
 import com.badlogic.gdx.math.Vector2;
-import com.kilobolt.ZBHelpers.AssetLoader;
 
 public class Bird {
 

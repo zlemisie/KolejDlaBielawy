@@ -1,4 +1,4 @@
-package com.kilobolt.TweenAccessors;
+package com.badbears.TweenAccessors;
 
 public class Value {
 

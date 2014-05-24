@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module>
-    <entry-point class="com.kilobolt.ZombieBird.client.GwtLauncher"/>
+    <entry-point class="com.badbears.ZombieBird.client.GwtLauncher"/>
     <set-configuration-property name="gdx.assetpath" value="../ZombieBird-android/assets"/>
     <inherits name="ZBGame"/>
     <inherits name="aurelienribon.tweenengine"/>

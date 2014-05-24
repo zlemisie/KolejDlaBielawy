@@ -1,10 +1,10 @@
-package com.kilobolt.GameWorld;
+package com.badbears.GameWorld;
 
+import com.badbears.GameObjects.Bird;
+import com.badbears.GameObjects.ScrollHandler;
+import com.badbears.ZBHelpers.AssetLoader;
 import com.badlogic.gdx.math.Intersector;
 import com.badlogic.gdx.math.Rectangle;
-import com.kilobolt.GameObjects.Bird;
-import com.kilobolt.GameObjects.ScrollHandler;
-import com.kilobolt.ZBHelpers.AssetLoader;
 
 public class GameWorld {
 
